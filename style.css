@@ -1,0 +1,119 @@
+*{
+	font-family: sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+.weather_app{
+	margin: 0em;
+}
+.weather_app_header{
+	display: flex;
+	justify-content: center;
+	height: 10vh;
+}
+.sign{
+	display: flex;
+	justify-content: center;
+	background-color: aliceblue;
+	border: 1px solid lightgrey;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+	width: 21.93em;
+}
+.weather_app_main{
+	display: flex;
+	justify-content: center;
+	height: 80vh;
+}
+.section_get_weather{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-color: navajowhite;
+	border: 1px solid lightgrey;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+	width: 21.93em;
+}
+.container_input{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: aliceblue;
+	margin: 0em 2em;
+	padding: 2em 0em;
+	border: 1px solid lightgrey;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 0.5em;
+}
+.weather_app_footer{
+	display: flex;
+	justify-content: center;
+	height: 10vh;
+}
+.container_link{
+	display: flex;
+	justify-content: center;
+	background-color: aliceblue;
+	padding: 0em 5em;
+	border: 1px solid lightgrey;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+	width: 11.93em;
+}
+.container_link > a {
+	margin-top: 1.5em;
+}
+#city{
+	all: unset;
+	margin-top: 1em;
+	background-color: rgba(240, 240, 240, 0.9);
+	border-radius: 0.3em;
+	border-bottom: 1px solid lightgrey;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+	padding: 0.25em 1em;
+	width: 70%;
+	transition: .8s all ease;
+}
+#city:hover{
+	padding: 0.5em 1.25em;
+	border: 1px darkgrey solid;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+#city:focus{
+	padding: 0.5em 1.25em;
+	border: 1px darkgrey solid;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.get_weather{
+	align-self: center;
+	width: 80%;
+	padding: 0.5em 0em;
+	border-radius: 0.5em;
+	border: 1px solid grey;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+	transition: .8s all ease;
+	font-weight: 1000;
+}
+.get_weather:hover{
+	cursor: pointer;
+	padding: 1em 0.25em;
+	border: 1px darkgrey solid;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	background-color: aliceblue;
+}
+.result{
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	align-self: center;
+	align-items: center;
+	width: 80%;
+	padding: 0.5em 0em;
+	border-radius: 0.5em;
+	background-color: aliceblue;
+	border: 1px solid grey;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+	transition: .8s all ease;
+}
+.on{
+	display: flex;
+}
